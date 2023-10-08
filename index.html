@@ -2,55 +2,83 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <title>EpicTask</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>EpicTask</title>
 </head>
 
 <body>
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="inicio.html">Início</a></li>
-        <li class="active"><a href="/">Tarefas</a></li>
-        <li><a href="cadastrar.html">criar tarefa</a></li>
-        <li><a href="perfil.html">perfil</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <main class="container">
-    <h4>Lista de tarefas </h4>
-
-    <div class="row">
-      <div class="col s12 m6">
-        <div class="card">
-          <div class="card-content">
-            <span class="card-title">Card Title</span>
-            <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            <span data-badge-caption="pontos" class="badge blue white-text">4</span>
-          </div>
-          <div class="card-action">
-            <a href="#" class="btn red">
-              <i class="material-icons">delete</i>
-            </a>
-            <a href="#" class="btn green">
-              <i class="material-icons">check</i>
-            </a>
-          </div>
+    <nav>
+        <div class="nav-wrapper green">
+          <a href="#"><img src="./imagens/favicon.png" width="5.1%" alt="Logo"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="inicio.html">Início</a></li>
+                <li class="active"><a href="index.html">Tarefas</a></li>
+                <li><a href="criarTarefas.html">criar tarefa</a></li>
+                <li><a href="perfil.html">perfil</a></li>
+            </ul>
         </div>
-      </div>
+    </nav>
+
+    <main class="container">
+        <h4>Lista de tarefas </h4>
+
+        <div class="row">
+            <!-- Primeiro Contêiner -->
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Fake News sobre a Creatina #1.</span>
+                        <p>A creatina é um suplemento alimentar amplamente estudado e utilizado por atletas e fisiculturistas para melhorar o desempenho físico. No entanto, ao longo dos anos, têm surgido várias informações falsas ou distorcidas sobre a creatina, o que levou a algumas "fake news" relacionadas a esse suplemento:</p>
+                        <p><strong>A creatina é um esteróide anabolizante:</strong> Isso é falso. A creatina é um composto natural produzido pelo corpo e também encontrado em alimentos como carne e peixe. Não é um esteróide anabolizante e não tem os mesmos efeitos colaterais ou riscos associados.</p>
+<p><strong>A creatina é prejudicial aos rins:</strong> Esta é uma crença comum, mas estudos científicos não encontraram evidências sólidas de que a creatina seja prejudicial aos rins em pessoas saudáveis quando usada nas doses recomendadas. No entanto, é importante consultar um profissional de saúde antes de usar qualquer suplemento, especialmente se você tiver problemas renais.</p>
+
+                        <span data-badge-caption="pontos" class="badge blue white-text">4</span>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="btn red">
+                            <i class="material-icons">delete</i>
+                        </a>
+                        <a href="#" class="btn green">
+                            <i class="material-icons">check</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segundo Contêiner (Aqui está o conteúdo do segundo contêiner) -->
+            <div class="col s12 m6">
+                <div class="card">
+                    <!-- Conteúdo do segundo contêiner aqui -->
+                    <div class="card-content">
+                      <span class="card-title">Fake News sobre a Creatina #2.</span>
+                      <p><strong>A creatina causa desidratação e cãibras musculares:</strong> Não há evidências científicas substanciais que apoiem essa afirmação. De fato, a creatina é frequentemente usada para melhorar o desempenho em esportes de alta intensidade, e a desidratação é mais provável de ocorrer devido à falta de hidratação adequada, não à creatina em si.</p>
+                      <p><strong>A creatina é apenas para fisiculturistas:</strong> Embora seja popular entre os fisiculturistas, a creatina pode ser usada por atletas de diferentes esportes e até mesmo por pessoas que desejam melhorar seu desempenho físico e ganhar massa muscular.</p>
+                      <p><strong>A creatina causa ganho de peso apenas de água:</strong> Embora a creatina possa levar a um aumento temporário de peso devido à retenção de água nas células musculares, isso não é o único efeito. Ela também pode contribuir para o ganho de massa muscular magra quando combinada com treinamento adequado.</p>
+                      <span data-badge-caption="pontos" class="badge blue white-text">4</span>
+                  </div>
+                  <div class="card-action">
+                      <a href="#" class="btn red">
+                          <i class="material-icons">delete</i>
+                      </a>
+                      <a href="#" class="btn green">
+                          <i class="material-icons">check</i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="fixed-action-btn">
+        <a href="cadastrar.html" class="btn-floating btn-large red">
+            <i class="large material-icons">add</i>
+        </a>
     </div>
-  </main>
-  <div class="fixed-action-btn">
-    <a href="cadastrar.html" class="btn-floating btn-large red">
-      <i class="large material-icons">add</i>
-    </a>
-  </div>
 </body>
 
 </html>
